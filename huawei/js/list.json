@@ -1,0 +1,11 @@
+[
+    { "name": "荣耀9X PRO", "imgurl": "./img/main/sj1.png", "price": "¥2199", "thumb": "新品", "huodong": "送耳机+数据线 6期免息", "code": "abc1" },
+    { "name": "HUAWEI nova 5i Pro", "imgurl": "./img/main/sj2.png", "price": "¥2199", "thumb": "新品", "huodong": "享6期免息", "code": "abc2" },
+    { "name": "荣耀20 PRO", "imgurl": "./img/main/sj8.png", "price": "¥3199", "huodong": "增配件|12期免息", "code": "abc3" },
+    { "name": "HUAWEI Mate 20 Pro", "imgurl": "./img/main/sj7.png", "price": "¥5099", "huodong": "享6期免息", "code": "abc4" },
+    { "name": "荣耀V20", "imgurl": "./img/main/sj4.png", "price": "¥2399", "huodong": "标配版低至2099元", "code": "abc5" },
+    { "name": "HUAWEI Mate 20", "imgurl": "./img/main/sj5.png", "price": "¥3199", "huodong": "享6期免息", "code": "abc6" },
+    { "name": "荣耀20i", "imgurl": "./img/main/sj3.png", "price": "¥1599", "huodong": "最高降300 部分版本送配件", "code": "abc7" },
+    { "name": "HUAWEI Mate 20 X (5G)", "imgurl": "./img/main/sj6.png", "price": "¥6199", "thumb": "新品", "huodong": "5G双模全网通手机", "code": "abc8" }
+
+]

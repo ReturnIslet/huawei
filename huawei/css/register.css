@@ -1,0 +1,402 @@
+.container_w{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+/* 图标部分 */
+.logo-h{
+    min-width: 1200px;
+    height: 67px;
+    background: #333;
+}
+.logo-hcenter{
+    max-width: 958px;
+    height: 67px;
+    margin: 0 auto;
+}
+.logo-img{
+    width: 143px;
+    height: 50px;
+    margin: 17px 20px 0 0;
+    float: left; 
+}
+.logo-img a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo-fz{
+    float: left;
+    line-height: 67px;
+}
+.fz_sx{
+    float: left;
+    font-size: 18px;
+    color: #ccc;
+}
+.logo-fz p{
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+/* 注册主体部分 */
+#re_main{
+    min-width: 1200px;
+    background:  #f2f2f2;
+}
+/* 头部切换块 */
+.re_cont{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 960px;
+}
+.re_con_t a{
+    font-size: 20px;
+    background: #ccc;
+    font-weight: 500;
+    cursor: pointer;
+    width: 146px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 12px;
+    position: relative;
+}
+.re_con_t .cf_b40{
+    background: #b40707;
+    color: #fff;
+}
+.re_con_t a span{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 30px;
+    text-align: center;
+}
+.ret_bgp{
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 24px;
+    width: 20px;
+    height: 22px;
+    background: url(../img/login/reg-img01.png) 0px -18px;
+}
+.ret_bge{
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    width: 22px;
+    height: 17px;
+    background: url(../img/login/reg-img01.png) 0px 0px ;
+}
+.re_login{
+    margin-top: -25px;
+    font-size: 14px;
+    color:  #333;
+    float: right;
+}
+.re_login a{
+    color: #007dff;
+}
+.re_login a:hover {
+    color: #0064cc;
+}
+/* 手机注册表单 */
+.re_phmain{
+    height: 538px;
+    padding: 30px 270px;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+}
+/* 国家 */
+.input-cont{
+    background: #f7f7f7;
+    width: 420px;
+	height: 44px;
+	line-height: 42px;
+    margin: 0px auto;
+    border: 1px solid #CCCCCC;
+    border-radius: 21px  21px;
+    margin-top: 10px;
+}
+.in_l{
+    width: 90px;
+    height: 100%;
+    border-right: 1px solid #d9d9d9;
+    padding: 0 16px;
+    line-height: 42px;
+    float: left;
+    text-align: justify;
+    text-align-last: justify;
+}
+.in_r{
+    margin-left: 123px;
+
+}
+.state{
+    position: relative;
+}
+.stat_topb{
+
+}
+.stat_txt{
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+}
+.s_xjt{
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    top: 17px;
+    cursor: pointer;
+    right: 16px;
+    background: url(../img/login/triangle_green.png);
+}
+/* 下拉菜单 */
+.stat_botn{
+    display: none;
+    position: absolute;
+    width: 290px;
+    background: #FFF;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 2px #eee;
+    z-index: 10;
+    overflow: hidden;
+    top: 45px;
+    font-size: 12px;
+    color: #333;
+}
+.list_cont{
+    overflow-y: auto;
+    height: 200px;
+    padding-top: 6px;
+}
+.div_zm{
+    background: #f7f7f7;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 16px;
+    padding: 0 8px;
+}
+.list_cont li{
+    padding: 13px 16px;
+    overflow: hidden;
+    line-height: 1;
+    cursor: pointer;
+}
+.list_cont li:hover{
+    background-color: rgba(0,125,255,0.2);
+}
+.ls_x{
+    padding: 0 16px;
+}
+.x_li{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.re_in_2{
+    position: relative;
+}
+.re_in_2 .in_l{
+    text-align: center;
+    text-align-last: auto;
+}
+.re_in_2 .s_xjt{
+    position: absolute;
+    left: 92px ;
+    top: 45%;
+    margin-left: 8px;
+    display: inline-block;
+}
+.ordersho{
+    padding: 16px 16px 10px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.ordiv{
+    background: #f7f7f7;
+    border-radius: 16px;
+    height: 32px;
+}
+.servrord{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 16px;
+    background: transparent;
+}
+.order_phone{
+    height: 42px;
+    width: 278px;
+    float:right;
+}
+.order_phone>input{
+    height: 42px;
+    width: 278px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    
+}
+.order_phone input::-webkit-input-placeholder{
+    color: rgb(204, 204, 204);
+}
+/* 遮罩层 */
+.phzezao{
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    width: 50px;
+    height: 44px;
+    border-radius: 31px 400px 405px 77px;
+    background: #f7f7f7;
+}
+/* 点击按钮进行验证 */
+.re_in_3{
+    position: relative;
+    margin-top: 30px;
+}
+.re_in_3 img{
+    height: 42px;
+    padding: 0 180px;
+}
+.re_in_4{
+    position: relative;
+}
+.cli_btn>input{
+    display: inline-block;
+    margin-top: 11px;
+    background: #f7f7f7;
+    border: 0;
+    color: #007dff;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.re_in_5{
+    position: relative;
+    margin-top: 30px;
+}
+.re_in_7{
+    position: relative;
+    margin-top: 30px;
+}
+/* 出生年月 */
+.Data{
+    padding: 0 16px;
+    margin-left: 123px;
+
+}
+.dirdate{
+    /* margin-top: 10px; */
+    line-height: 38px;
+}
+.dirdate .dir_ymd input{
+    height: 20px;
+    width: 15%;
+    border: 0;
+    padding: 0 16px;
+    background: transparent;
+}
+.ar_date{
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    margin: 0px 15px;
+}
+.dateItems {
+    margin-right: 10px;
+}
+.dir_text{
+    font-size: 15px;
+    vertical-align: middle;
+}
+.dir_data{
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.ar_date>.s_xjt{
+    right: -18px;
+}
+.ar_date>.stat_botn{
+    width: 152px;
+    height: 200px;
+    top:32px;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+}
+
+
+
+/* 错误提醒 */
+.cf_332{
+    width: 100%;
+    padding: 0 16px;
+    font-size: 12px;
+    color: #ff3320;
+}
+
+/* 注册按钮 */
+.reg-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn_reg{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    cursor: pointer;
+    background-color: #b40707;
+    border: 0;
+    color: #fff;
+}
+/* 底部边框 */
+.re_boxs{
+    padding-top: 40px;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    background: #f2f2f2;
+}
+/* 版权 */
+.re_copyright{
+    height: 82px;
+    text-align: center;
+    background: #f2f2f2;
+    border: 1px solid #ebebeb;;/*这是解决高度塌陷问题*/
+}
+.cr_txt{
+    height: 42px;
+    margin: 20px auto;
+    font-size: 12px; 
+    color: #999;
+    text-align: center;
+    /* line-height: 22px; */
+}
+/* 链接声明  */
+.cr_statement{margin-bottom: 10px}
+.cr_statement a{
+    color: #999;
+    padding: 0 10px;
+}
+.cr_statement a:hover{
+    text-decoration: underline;
+
+}
